@@ -1,0 +1,65 @@
+.item-count{
+  position: absolute;
+  bottom: 1px;
+  right: 8.7rem;
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+
+.item-count-container-btn{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+  grid-template-areas: 
+  "btn-sub btn-add"
+  "btn-cart btn-cart";
+}
+
+.item-count-text{
+  font-size: 1.3rem;
+  margin: .5rem;
+  font-weight: bold;
+
+}
+
+.item-count-btn{
+  width: 8rem;
+  height: 4rem;
+  border-radius: 10px;
+  color: black;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.item-count-btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 2px black;
+}
+
+.item-count-btn:active{
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.btn-sub{
+  color: rgb(101, 2, 2);
+  grid-area: btn-sub;
+  font-size: 3rem;
+}
+
+.btn-add{
+  color: rgb(1, 62, 1);
+  grid-area: btn-add;
+  font-size: 3rem;
+}
+
+.btn-cart{
+  grid-area: btn-cart;
+  width: 17.5rem;
+  margin-top: 1rem auto;
+}

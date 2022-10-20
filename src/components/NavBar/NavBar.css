@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  position: sticky;
+  top:0 ;
+  z-index: 10 ;
+  height: 4rem;
+  overflow: visible;
+}
+
+.nav__home{
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.nav__ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__li{
+  list-style: none;
+  text-align: center;
+  width: 20rem ;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+.nav__li:hover{
+  background-color: rgb(183, 248, 248);
+}
+
+.nav__link{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}

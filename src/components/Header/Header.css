@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+.hero{
+  width: 100vw;
+  height: 50vh;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/coder-react-15f48.appspot.com/o/gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg?alt=media&token=6823b21c-66cb-440b-a0e7-9e09f113cc61);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 10rem;
+}
+
+.hero__title{
+  text-align: center;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 4.5rem;
+  text-shadow: 3px 3px 2px rgb(220, 220, 220);
+}
